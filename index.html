@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YOUR NAME — Official Site | Music, Downloads & Tour</title>
+  <meta name="description" content="Official website of YOUR NAME. Stream and download the latest releases, watch videos, get tour dates, and subscribe for new music.">
+  <meta name="author" content="YOUR NAME">
+  <link rel="canonical" href="https://yourdomain.com/">
+  <meta property="og:type" content="music.musician">
+  <meta property="og:title" content="YOUR NAME — Official Site">
+  <meta property="og:description" content="Stream, download and share the latest music from YOUR NAME.">
+  <meta property="og:image" content="https://yourdomain.com/images/og-cover.jpg">
+  <meta property="og:url" content="https://yourdomain.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="YOUR NAME — Official Site">
+  <meta name="twitter:description" content="Stream, download and share the latest music.">
+  <meta name="twitter:image" content="https://yourdomain.com/images/og-cover.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎧</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="container nav-wrap">
+    <a href="#home" class="brand" aria-label="Home"><span class="brand-mark">◆</span><span class="brand-text">YOUR&nbsp;NAME</span></a>
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <a href="#music">Music</a><a href="#downloads">Downloads</a><a href="#videos">Videos</a><a href="#tour">Tour</a><a href="#about">About</a><a href="#contact">Contact</a>
+      <a href="#subscribe" class="btn btn-sm btn-accent nav-cta">Subscribe</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="home">
+    <div class="hero-bg" aria-hidden="true"></div><div class="hero-glow" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <p class="eyebrow reveal">New single out now</p>
+      <h1 class="hero-title reveal">YOUR NAME <span class="hero-sub">Genre · Artist · Producer</span></h1>
+      <p class="hero-copy reveal">Music that hits different. Stream the latest release, grab a free download, and be the first to hear what's coming next.</p>
+      <div class="hero-actions reveal">
+        <a href="#music" class="btn btn-accent btn-lg"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>Listen Now</a>
+        <a href="#downloads" class="btn btn-ghost btn-lg"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>Free Download</a>
+        <button class="btn btn-ghost btn-lg" id="heroShare" type="button">Share</button>
+      </div>
+      <ul class="platform-row reveal" aria-label="Streaming platforms">
+        <li><a href="https://open.spotify.com/artist/YOUR_ID" target="_blank" rel="noopener">Spotify</a></li>
+        <li><a href="https://music.apple.com/artist/YOUR_ID" target="_blank" rel="noopener">Apple Music</a></li>
+        <li><a href="https://www.youtube.com/@YOURCHANNEL" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://soundcloud.com/YOURNAME" target="_blank" rel="noopener">SoundCloud</a></li>
+        <li><a href="https://YOURNAME.bandcamp.com" target="_blank" rel="noopener">Bandcamp</a></li>
+      </ul>
+    </div>
+    <a href="#music" class="scroll-cue" aria-label="Scroll to music"><span></span></a>
+  </section>
+
+  <section class="section" id="music"><div class="container">
+    <header class="section-head reveal"><p class="eyebrow">Discography</p><h2>The Music</h2><p class="section-sub">Stream it, save it, share it. Every release in one place.</p></header>
+    <article class="feature reveal">
+      <div class="feature-art art-1" role="img" aria-label="Album artwork for Midnight Drive"></div>
+      <div class="feature-body"><span class="tag">Latest Release</span><h3>Midnight Drive</h3><p class="meta">Single · 2025 · 3:42</p><p>A late-night blend of warm synths and heavy 808s — written for the drive home when the city goes quiet.</p>
+        <div class="feature-actions">
+          <button class="btn btn-accent" data-play="audio/midnight-drive.mp3" data-title="Midnight Drive" data-art="art-1">▶ Play</button>
+          <a class="btn btn-ghost" href="audio/midnight-drive.mp3" download>Download MP3</a>
+          <a class="btn btn-ghost" href="https://open.spotify.com/track/YOUR_TRACK_ID" target="_blank" rel="noopener">Spotify</a>
+        </div>
+      </div>
+    </article>
+    <div class="grid grid-3">
+      <article class="card release reveal"><div class="card-art art-2" role="img" aria-label="Album artwork for Neon Rain"></div><div class="card-body"><h3>Neon Rain</h3><p class="meta">EP · 2024 · 6 tracks</p><div class="card-actions"><button class="icon-btn" data-play="audio/neon-rain.mp3" data-title="Neon Rain" data-art="art-2" aria-label="Play Neon Rain">▶</button><a class="icon-btn" href="audio/neon-rain.mp3" download aria-label="Download Neon Rain">↓</a><button class="icon-btn" data-share data-title="Neon Rain by YOUR NAME" aria-label="Share Neon Rain">↗</button></div></div></article>
+      <article class="card release reveal"><div class="card-art art-3" role="img" aria-label="Album artwork for Golden Hour"></div><div class="card-body"><h3>Golden Hour</h3><p class="meta">Single · 2024 · 3:18</p><div class="card-actions"><button class="icon-btn" data-play="audio/golden-hour.mp3" data-title="Golden Hour" data-art="art-3" aria-label="Play Golden Hour">▶</button><a class="icon-btn" href="audio/golden-hour.mp3" download aria-label="Download Golden Hour">↓</a><button class="icon-btn" data-share data-title="Golden Hour by YOUR NAME" aria-label="Share Golden Hour">↗</button></div></div></article>
+      <article class="card release reveal"><div class="card-art art-4" role="img" aria-label="Album artwork for Static Dreams"></div><div class="card-body"><h3>Static Dreams</h3><p class="meta">Album · 2023 · 11 tracks</p><div class="card-actions"><button class="icon-btn" data-play="audio/static-dreams.mp3" data-title="Static Dreams" data-art="art-4" aria-label="Play Static Dreams">▶</button><a class="icon-btn" href="audio/static-dreams.mp3" download aria-label="Download Static Dreams">↓</a><button class="icon-btn" data-share data-title="Static Dreams by YOUR NAME" aria-label="Share Static Dreams">↗</button></div></div></article>
+    </div>
+  </div></section>
+
+  <section class="section section-alt" id="downloads"><div class="container">
+    <header class="section-head reveal"><p class="eyebrow">Free &amp; Paid</p><h2>Downloads</h2><p class="section-sub">Grab the files. Use them, remix them, play them loud.</p></header>
+    <div class="grid grid-2">
+      <article class="download-card reveal"><div class="dl-icon">🎵</div><div class="dl-body"><h3>Midnight Drive — MP3</h3><p class="meta">320 kbps · 8.4 MB · Free</p><a href="audio/midnight-drive.mp3" download class="btn btn-accent btn-block">Download Free</a></div></article>
+      <article class="download-card reveal"><div class="dl-icon">💿</div><div class="dl-body"><h3>Neon Rain — Full EP (WAV)</h3><p class="meta">Lossless · 240 MB · $5</p><a href="https://YOURNAME.bandcamp.com/album/neon-rain" target="_blank" rel="noopener" class="btn btn-ghost btn-block">Buy on Bandcamp</a></div></article>
+      <article class="download-card reveal"><div class="dl-icon">🎛️</div><div class="dl-body"><h3>Stem Pack — Midnight Drive</h3><p class="meta">ZIP · 96 MB · Free for remixers</p><a href="downloads/midnight-drive-stems.zip" download class="btn btn-ghost btn-block">Download Stems</a></div></article>
+      <article class="download-card reveal"><div class="dl-icon">🖼️</div><div class="dl-body"><h3>Press Kit</h3><p class="meta">PDF + hi-res photos · Free</p><a href="downloads/press-kit.zip" download class="btn btn-ghost btn-block">Download Press Kit</a></div></article>
+    </div>
+  </div></section>
+
+  <section class="section" id="videos"><div class="container">
+    <header class="section-head reveal"><p class="eyebrow">Watch</p><h2>Videos</h2></header>
+    <div class="grid grid-3">
+      <a class="video-card reveal" href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" rel="noopener"><div class="video-thumb art-1"><span class="play-badge">▶</span></div><h3>Midnight Drive (Official Video)</h3><p class="meta">4:12 · YouTube</p></a>
+      <a class="video-card reveal" href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" rel="noopener"><div class="video-thumb art-3"><span class="play-badge">▶</span></div><h3>Golden Hour (Live Session)</h3><p class="meta">3:28 · YouTube</p></a>
+      <a class="video-card reveal" href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" rel="noopener"><div class="video-thumb art-4"><span class="play-badge">▶</span></div><h3>Static Dreams (Visualizer)</h3><p class="meta">5:01 · YouTube</p></a>
+    </div>
+  </div></section>
+
+  <section class="section section-alt" id="tour"><div class="container">
+    <header class="section-head reveal"><p class="eyebrow">Live</p><h2>Tour Dates</h2><p class="section-sub">Come through. Say hi after the show.</p></header>
+    <ul class="tour-list">
+      <li class="tour-row reveal"><div class="tour-date"><strong>MAR 14</strong><span>2026</span></div><div class="tour-info"><h3>Nairobi, KE</h3><p>The Alchemist Bar</p></div><a class="btn btn-ghost" href="https://tickets.example.com" target="_blank" rel="noopener">Tickets</a></li>
+      <li class="tour-row reveal"><div class="tour-date"><strong>MAR 22</strong><span>2026</span></div><div class="tour-info"><h3>Mombasa, KE</h3><p>Tapas Cielo</p></div><a class="btn btn-ghost" href="https://tickets.example.com" target="_blank" rel="noopener">Tickets</a></li>
+      <li class="tour-row reveal"><div class="tour-date"><strong>APR 05</strong><span>2026</span></div><div class="tour-info"><h3>Kampala, UG</h3><p>Design Hub</p></div><a class="btn btn-ghost" href="https://tickets.example.com" target="_blank" rel="noopener">Tickets</a></li>
+      <li class="tour-row reveal sold-out"><div class="tour-date"><strong>APR 19</strong><span>2026</span></div><div class="tour-info"><h3>Dar es Salaam, TZ</h3><p>Warehouse</p></div><span class="tag tag-muted">Sold Out</span></li>
+    </ul>
+  </div></section>
+
+  <section class="section" id="about"><div class="container about-grid">
+    <div class="about-photo reveal" role="img" aria-label="Portrait of YOUR NAME"></div>
+    <div class="about-body reveal"><p class="eyebrow">About</p><h2>The Story</h2>
+      <p>I'm <strong>YOUR NAME</strong>, a GENRE artist and producer based in CITY, COUNTRY. I started making beats on a laptop with broken speakers and never really stopped.</p>
+      <p>My sound sits somewhere between REFERENCE 1 and REFERENCE 2 — built on late nights, long drives, and the kind of melodies that get stuck in your head for days.</p>
+      <p>Since 20XX I've released X projects, played Y shows, and worked with artists across Z countries. This site is where everything lives.</p>
+      <div class="stats"><div class="stat"><strong>120K+</strong><span>Monthly listeners</span></div><div class="stat"><strong>45+</strong><span>Shows played</span></div><div class="stat"><strong>12</strong><span>Releases</span></div></div>
+    </div>
+  </div></section>
+
+  <section class="section subscribe" id="subscribe"><div class="container narrow center">
+    <p class="eyebrow reveal">Never miss a drop</p><h2 class="reveal">Join the mailing list</h2>
+    <p class="section-sub reveal">New releases, free downloads, and early ticket links — straight to your inbox. No spam, ever.</p>
+    <form class="subscribe-form reveal" id="subscribeForm" name="subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+      <input type="hidden" name="form-name" value="subscribe">
+      <p class="hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
+      <div class="field-row"><label class="sr-only" for="subName">First name</label><input id="subName" name="name" type="text" placeholder="First name" autocomplete="given-name">
+        <label class="sr-only" for="subEmail">Email address</label><input id="subEmail" name="email" type="email" placeholder="you@email.com" autocomplete="email" required>
+        <button class="btn btn-accent" type="submit">Subscribe</button></div>
+      <p class="form-msg" id="subscribeMsg" role="status" aria-live="polite"></p>
+    </form>
+    <div class="socials reveal"><a href="https://instagram.com/YOURNAME" target="_blank" rel="noopener">Instagram</a><a href="https://tiktok.com/@YOURNAME" target="_blank" rel="noopener">TikTok</a><a href="https://x.com/YOURNAME" target="_blank" rel="noopener">X</a><a href="https://facebook.com/YOURNAME" target="_blank" rel="noopener">Facebook</a><a href="https://youtube.com/@YOURCHANNEL" target="_blank" rel="noopener">YouTube</a></div>
+  </div></section>
+
+  <section class="section section-alt" id="contact"><div class="container narrow">
+    <header class="section-head center reveal"><p class="eyebrow">Get in touch</p><h2>Booking &amp; Collabs</h2><p class="section-sub">Shows, features, sync licensing, or just to say what's up.</p></header>
+    <form class="contact-form reveal" id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+      <input type="hidden" name="form-name" value="contact">
+      <p class="hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
+      <div class="grid grid-2 gap-sm"><div class="field"><label for="cName">Name</label><input id="cName" name="name" type="text" required autocomplete="name"></div><div class="field"><label for="cEmail">Email</label><input id="cEmail" name="email" type="email" required autocomplete="email"></div></div>
+      <div class="field"><label for="cSubject">Subject</label><select id="cSubject" name="subject"><option>Booking inquiry</option><option>Collaboration</option><option>Sync / licensing</option><option>Press</option><option>Other</option></select></div>
+      <div class="field"><label for="cMessage">Message</label><textarea id="cMessage" name="message" rows="5" required></textarea></div>
+      <button class="btn btn-accent btn-lg btn-block" type="submit">Send Message</button><p class="form-msg" id="contactMsg" role="status" aria-live="polite"></p>
+    </form>
+  </div></section>
+</main>
+
+<footer class="site-footer"><div class="container footer-grid">
+  <div><a href="#home" class="brand"><span class="brand-mark">◆</span><span class="brand-text">YOUR NAME</span></a><p class="footer-note">Independent artist. All rights reserved.</p></div>
+  <nav aria-label="Footer navigation"><h4>Explore</h4><a href="#music">Music</a><a href="#downloads">Downloads</a><a href="#videos">Videos</a><a href="#tour">Tour</a></nav>
+  <nav aria-label="Social links"><h4>Follow</h4><a href="https://instagram.com/YOURNAME" target="_blank" rel="noopener">Instagram</a><a href="https://tiktok.com/@YOURNAME" target="_blank" rel="noopener">TikTok</a><a href="https://x.com/YOURNAME" target="_blank" rel="noopener">X</a><a href="https://youtube.com/@YOURCHANNEL" target="_blank" rel="noopener">YouTube</a></nav>
+  <div><h4>Contact</h4><a href="mailto:booking@yourdomain.com">booking@yourdomain.com</a><a href="mailto:press@yourdomain.com">press@yourdomain.com</a></div>
+</div><div class="container footer-bottom"><p>© <span id="year"></span> YOUR NAME. All rights reserved.</p><button class="link-btn" data-share data-title="Check out YOUR NAME">Share this site</button></div></footer>
+
+<div class="player" id="player" hidden>
+  <div class="player-art" id="playerArt"></div><div class="player-info"><strong id="playerTitle">—</strong><span id="playerStatus">Tap play</span></div>
+  <button class="player-btn" id="playerToggle" aria-label="Play or pause">▶</button>
+  <input class="player-seek" id="playerSeek" type="range" min="0" max="100" value="0" aria-label="Seek">
+  <span class="player-time" id="playerTime">0:00</span><button class="player-close" id="playerClose" aria-label="Close player">✕</button>
+  <audio id="audio" preload="metadata"></audio>
+</div>
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
